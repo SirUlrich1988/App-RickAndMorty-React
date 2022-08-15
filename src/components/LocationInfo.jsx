@@ -1,5 +1,4 @@
 import React from 'react'
-import LoadingScreen from '../LoadingScreen'
 
 const LocationInfo = ({location}) => {
 

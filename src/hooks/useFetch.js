@@ -5,7 +5,6 @@ import { useEffect } from "react"
 const useFetch = URL => {
 
     const [response, setResponse] = useState()
-    const [isLoading, setisLoading] = useState(true)
 
     useEffect(()=> {
         axios.get(URL)
