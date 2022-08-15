@@ -1,0 +1,125 @@
+/* * {
+    border: 1px solid rgb(255, 0, 0);
+} */
+
+body {
+    margin: 0%;    
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2019/01/24/rick-and-morty-wallpaper.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+img {
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.box_header {
+    margin: 0%;
+    width: 100%;
+    height: 700px;
+    background-image: url(https://images.hdqwalls.com/wallpapers/rick-and-morty-smith-adventures-4k-di.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box_input {
+    margin: 0%;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_input input {
+    padding: 12px;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(246, 241, 241);
+}
+
+h1 {
+    color: rgb(250, 247, 247);
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: orange;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.box_location {
+    margin: 0%;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box_location li {
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.status {
+    color: white;
+    font-size: 20px;
+}
+
+.box_residents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 50px;
+
+}
+
+.box_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.box_card_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+.box_card_text span {
+    font-size: 25px ;
+}
+
+.box_card_text ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box_card_text li {
+    list-style: none;
+    font-size: 25px;
+}
